@@ -1,12 +1,12 @@
 --hard to control(THIS DOES NOT MALFUNCTION THE SCRIPT)--
 pcall(function()
-local espcolor = Color3.fromRGB(255, 255, 255)
-local wallhack_esp_transparency = .7
+local espcolor = Color3.fromRGB(255, 0, 0)
+local wallhack_esp_transparency = .8
 local gui_hide_button = {Enum.KeyCode.LeftControl, "h"}
 local plrs = game:GetService("Players")
 local lplr = game:GetService("Players").LocalPlayer
 local TeamBased = true ; local teambasedswitch = "o"
-local presskeytoaim = true; local aimkey = "e"
+local presskeytoaim = true; local aimkey = "0"
 aimbothider = false; aimbothiderspeed = .7
 local Aim_Assist = false ; Aim_Assist_Key = {Enum.KeyCode.LeftControl, "z"}
 local espupdatetime = 5; autoesp = false
@@ -192,7 +192,7 @@ espstatustext.Position = UDim2.new(0, 0,0.58, 0)
 espstatustext.Text = "Esp loop :"..tostring(autoesp)
 espstatustext.Parent = Main
 local hide = Instance.new("TextButton")
-hide.Text = "__"
+hide.Text = "X"
 hide.BackgroundTransparency = 1
 hide.TextScaled = true
 hide.TextWrapped = true
